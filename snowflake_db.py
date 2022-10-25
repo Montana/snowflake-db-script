@@ -4,7 +4,7 @@ class SnowflakeDatabase(SnowflakeResource):
         self.name = kwargs["name"]
         self.owner = kwargs["owner"]
         self.comment = kwargs["comment"]
-        self.tf_filename = "snowflake_database.tf"
+        self.tf_filename = "snowflake.tf"
         super().__init__(**kwargs)
 
     @property
